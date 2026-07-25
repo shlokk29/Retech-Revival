@@ -13,7 +13,15 @@
     "marketplace"
   ],
   "author": "Retech Revival Team",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/shlokk29/Retech-Revival#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shlokk29/Retech-Revival.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shlokk29/Retech-Revival/issues"
+  },
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.3",
