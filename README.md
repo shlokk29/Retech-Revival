@@ -2,11 +2,11 @@
   <img src="public/img/readme_banner.png" alt="ReTech Revival Banner" width="100%" />
 </p>
 
-<h1 align="center">♻️ ReTech Revival</h1>
+<h1 align="center">ReTech Revival</h1>
 
 <p align="center">
   <strong>Tech Reborn. Value Restored.</strong><br/>
-  A premium full-stack marketplace for buying &amp; selling refurbished laptops — powered by machine learning.
+  A premium full-stack marketplace for buying &amp; selling refurbished laptops.
 </p>
 
 <p align="center">
@@ -17,16 +17,16 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="#-api-reference">API Reference</a> •
-  <a href="#-contributing">Contributing</a>
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#features">Features</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#api-reference">API Reference</a> •
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
 
-## 📖 About
+## About
 
 **ReTech Revival** is a production-ready, full-stack web marketplace built for the refurbished electronics economy. It bridges the gap between high-quality refurbished devices and students, startups, and professionals who need affordable tech — while promoting sustainability by reducing e-waste.
 
@@ -36,20 +36,20 @@ Every device listed on the platform passes a **50-point quality inspection** and
 
 ---
 
-## ✨ Features
+## Features
 
-### 🛒 Buyer Experience
+### Buyer Experience
 - **Smart Catalog** — Browse refurbished laptops with real-time filters (brand, condition, price range, processor)
 - **Product Detail Pages** — Full specs, image gallery, and customer reviews with ratings
 - **Shopping Cart** — Persistent cart with quantity management and price summaries
 - **Secure Auth** — Bcrypt-hashed registration/login with session-based authentication
 
-### 💰 Seller Experience
+### Seller Experience
 - **Instant Valuation Engine** — Multi-step sell form with dynamic, brand-specific processor selection
 - **ML-Powered Price Prediction** — Get a fair, data-driven price estimate in under 2 minutes
 - **Free Doorstep Pickup** — Schedule a pickup with professional device verification included
 
-### 🤖 Machine Learning Engine
+### Machine Learning Engine
 Zero-dependency ML system built in pure JavaScript:
 
 | Model | Algorithm | Purpose |
@@ -59,14 +59,14 @@ Zero-dependency ML system built in pure JavaScript:
 | **Trending Scorer** | Exponential Decay | Real-time demand-based trending rankings |
 | **User Segmentation** | K-Means++ Clustering | Behavioral user segmentation |
 
-### 🎨 UI/UX
+### UI/UX
 - **Dark/Light Theme** — Automatic detection + manual toggle, persisted in localStorage
 - **3D Animations** — Parallax tilt cards, scroll-reveal, magnetic buttons, particle effects, morphing blobs
 - **AI Chatbot** — Integrated support chatbot with context-aware responses
 - **Mobile Responsive** — Hamburger nav, stacked layouts, and touch-friendly UI across all breakpoints
 - **Premium Design** — Navy & emerald color palette, glassmorphism, micro-animations, gradient borders
 
-### 📦 Additional
+### Additional
 - **Customer Reviews** — Star ratings, helpful votes, and dynamic review statistics
 - **User Dashboard** — Order history and account management
 - **Newsletter Subscription** — Email subscription system
@@ -74,7 +74,7 @@ Zero-dependency ML system built in pure JavaScript:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ReTech_Revival/
@@ -131,7 +131,7 @@ ReTech_Revival/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology | Details |
 |-------|-----------|---------|
@@ -146,7 +146,7 @@ ReTech_Revival/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -167,7 +167,7 @@ npm install
 npm run dev
 ```
 
-The app will be running at **http://localhost:3000** 🎉
+The app will be running at **http://localhost:3000**
 
 ### Environment Variables
 
@@ -184,7 +184,7 @@ NODE_ENV=development
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 All endpoints are prefixed with `/api`.
 
@@ -234,43 +234,43 @@ All endpoints are prefixed with `/api`.
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 <details>
-<summary><strong>🏠 Homepage & Hero</strong></summary>
+<summary><strong>Homepage & Hero</strong></summary>
 <br/>
 The landing page features a premium hero section with 3D animations, floating device card, and featured product grid powered by the ML trending engine.
 </details>
 
 <details>
-<summary><strong>🛍️ Product Catalog</strong></summary>
+<summary><strong>Product Catalog</strong></summary>
 <br/>
 Full catalog with real-time filters by brand, condition, price range, and processor. Grid and list view options with animated transitions.
 </details>
 
 <details>
-<summary><strong>📱 Product Detail</strong></summary>
+<summary><strong>Product Detail</strong></summary>
 <br/>
 Detailed product page with full specs, image gallery, ML-powered "Similar Devices" recommendations, and a complete review system.
 </details>
 
 <details>
-<summary><strong>💰 Sell Your Laptop</strong></summary>
+<summary><strong>Sell Your Laptop</strong></summary>
 <br/>
 Multi-step sell wizard with brand-specific processor selection, dynamic valuation engine, and free doorstep pickup scheduling.
 </details>
 
 <details>
-<summary><strong>🌙 Dark Mode</strong></summary>
+<summary><strong>Dark Mode</strong></summary>
 <br/>
 Full dark mode support across all pages with smooth theme transitions and persistent preference storage.
 </details>
 
 ---
 
-## 🧪 Running in Mock Mode
+## Running in Mock Mode
 
-Don't have MongoDB installed? No problem! The app automatically detects when MongoDB is unavailable and switches to **mock mode** with realistic sample data:
+Don't have MongoDB installed? No problem. The app automatically detects when MongoDB is unavailable and switches to **mock mode** with realistic sample data:
 
 ```bash
 # Just start the server — no database needed
@@ -285,7 +285,7 @@ You'll see this in the console:
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 The project is pre-configured for deployment on **[Render](https://render.com/)**:
 
@@ -293,11 +293,11 @@ The project is pre-configured for deployment on **[Render](https://render.com/)*
 2. Set the build command: `npm install`
 3. Set the start command: `npm start`
 4. Add environment variables (`MONGODB_URI`, `SESSION_SECRET`, `NODE_ENV=production`)
-5. Deploy! 🚀
+5. Deploy
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -309,13 +309,13 @@ Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) 
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Express.js](https://expressjs.com/) — Fast, unopinionated web framework
 - [Mongoose](https://mongoosejs.com/) — Elegant MongoDB ODM
@@ -325,6 +325,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
-  Made with ♻️ for a sustainable future<br/>
   <strong>ReTech Revival</strong> — Tech Reborn. Value Restored.
 </p>
